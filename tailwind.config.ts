@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom SchoolSync colors
+				"school-bg": "rgb(250, 241, 230)",
+				"school-white": "rgb(253, 250, 246)",
+				"school-green-light": "rgb(228, 239, 231)",
+				"school-green": "rgb(153, 188, 133)",
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
